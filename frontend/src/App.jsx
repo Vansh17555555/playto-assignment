@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_BASE = "http://localhost:8000/api/v1";
+const API_BASE = "https://playto-assignment-t3yw.onrender.com/api/v1";
 
 const paiseToInr = (value) => (value / 100).toFixed(2);
 const inrToPaise = (value) => Math.round(parseFloat(value || 0) * 100);
